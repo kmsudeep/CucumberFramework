@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="79668" started-at="2019-09-08T02:22:39Z" finished-at="2019-09-08T02:23:58Z">
+    <groups>
+      <group name="Test">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.amazon.testrunner.TestRunner@757942a1]" name="feature" class="com.amazon.testrunner.TestRunner"/>
+      </group> <!-- Test -->
+    </groups>
+    <test name="Test" duration-ms="79668" started-at="2019-09-08T02:22:39Z" finished-at="2019-09-08T02:23:58Z">
+      <class name="com.amazon.testrunner.TestRunner">
+        <test-method status="PASS" signature="getsetup()[pri:0, instance:com.amazon.testrunner.TestRunner@757942a1]" name="getsetup" is-config="true" duration-ms="235" started-at="2019-09-08T02:22:39Z" finished-at="2019-09-08T02:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsetup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.amazon.testrunner.TestRunner@757942a1]" name="feature" duration-ms="79230" started-at="2019-09-08T02:22:39Z" description="Cucumber Framework" data-provider="feature" finished-at="2019-09-08T02:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.amazon.testrunner.TestRunner@757942a1]" name="teardown" is-config="true" duration-ms="125" started-at="2019-09-08T02:23:58Z" finished-at="2019-09-08T02:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.amazon.testrunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

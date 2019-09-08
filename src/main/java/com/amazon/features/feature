@@ -1,0 +1,31 @@
+Feature: Amazon Application 
+
+Background: Login to Amazon Site with a Valid Username and Password
+
+Given Open the browser and enter the url 
+Then Enter the username and click on continue
+Then Enter the password and click on login 
+Then Verify User is successfully logged in to amazon site
+
+Scenario: Add a Wildcraft bag to the Cart  
+
+Given Search for the bag in the search section
+Then Click on the Search button
+And Select the Wildcraft Brand
+Then Select the Specific Bag
+Then Click on Add to Cart link
+Then Verify bag is Successfully added into cart
+
+Scenario: Add the the User new Address
+Given Click on the Cart link from HomePage
+Then Click on Proceed to Buy Page
+Then Enter the User Information
+
+|	FullName	|	Mobile No		|	Pincode	|	Flat No		|	Area				|	Landmark		|
+|	K M Sudeep	|	8867184906		|	580023	|	7/A			|	Tearcher's colony	|	Gayatri Temple	| 
+
+Scenario: Remove the Bag from the Cart
+
+Given Click on the the cart link from HomePage
+Then Click on Delete link
+Then Verify bag is deleted from the cart
